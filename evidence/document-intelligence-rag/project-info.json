@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-05",
+  "slug": "document-intelligence-rag",
+  "title_en": "Document Intelligence & RAG",
+  "title_ar": "ذكاء المستندات والاسترجاع المعزز بالتوليد (RAG)",
+  "category": "NLP & Knowledge Engineering",
+  "is_featured": true,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:51.170110+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "chroma-core/chroma",
+  "upstream_url": "https://github.com/chroma-core/chroma",
+  "license": "Apache-2.0",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on chroma-core/chroma (Apache-2.0).",
+  "metrics": {
+    "Retrieval Recall@3": "97.8%",
+    "End-to-End Latency": "42.8 ms",
+    "Hallucination Rate": "0.0% (Strict Citation)",
+    "Peak Cosine Match": "49.7%"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "f4edafe1df4613eefec82d331a2275e8b7ce9ee7bbbfb19414ea3708ecda43ff",
+    "execution-result.png": "2cb6bec224daf9dda4de1e5d4fc0747491d4152b8657497dfb76ab3400a39847",
+    "detailed-view.png": "a4d0d0576e2454b9921ad49d3c6eef4db332c357814e74bedb6cb2350e548289"
+  }
+}

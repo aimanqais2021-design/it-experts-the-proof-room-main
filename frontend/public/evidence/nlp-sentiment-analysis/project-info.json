@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-04",
+  "slug": "nlp-sentiment-analysis",
+  "title_en": "NLP & Sentiment Analysis",
+  "title_ar": "معالجة اللغات الطبيعية وتحليل المشاعر ثنائي اللغة",
+  "category": "NLP & Language Models",
+  "is_featured": true,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:49.326055+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "huggingface/transformers",
+  "upstream_url": "https://github.com/huggingface/transformers",
+  "license": "Apache-2.0",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on huggingface/transformers (Apache-2.0).",
+  "metrics": {
+    "Bilingual Accuracy": "100.0%",
+    "Languages Supported": "Arabic (RTL) & English (LTR)",
+    "Vocabulary Features": "120 N-Grams",
+    "Mean Confidence": "95.7%"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "274c80533fc327b72f8ade16162f016da67128fbb061c97ec7cf9ae05ed67d0a",
+    "execution-result.png": "c92abb4d867a7e0b9b42ed678a3d3eb641444184a1892f27a20c4504eeebb262",
+    "detailed-view.png": "d0c841013caeef6309df92b58f54b5ad95b1921f665592638111ed1fef74483f"
+  }
+}

@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Secrets & Local Databases
+.env
+.env.local
+.env.*.local
+*.db
+*.sqlite3
+
+# Runtime Uploads (Contains customer attachments)
+backend/uploads/
+uploads/
+
+# Node / Frontend build artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/playwright-report/
+frontend/test-results/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.log

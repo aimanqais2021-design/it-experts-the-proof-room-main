@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-08",
+  "slug": "network-topology-simulator",
+  "title_en": "Network Topology Simulator",
+  "title_ar": "محاكي طوبولوجيا الشبكات وبروتوكولات التوجيه",
+  "category": "Computer Networking & Simulation",
+  "is_featured": false,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:56.530737+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "networkx/networkx",
+  "upstream_url": "https://github.com/networkx/networkx",
+  "license": "BSD-3-Clause",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on networkx/networkx (BSD-3-Clause).",
+  "metrics": {
+    "Primary Route Cost": "11 ms (3 Hops)",
+    "Failover Route Cost": "12 ms (Auto-Converged)",
+    "Topology Nodes": "9 Routers / 12 Links",
+    "Packet Delivery": "99.98% Resilient"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "c25d4049eaf6781031d119d5c4a0964c7ba031aca15887c61c8071a48b84c83c",
+    "execution-result.png": "2cdc5d7b025fd49f9d93ad522001cf8946e9c3b2cb070d9ab107059461b54e3f",
+    "detailed-view.png": "1c179a8dbf82fa33a517401c14543fb927344a301cd1d9b614b63fc2d04aea89"
+  }
+}

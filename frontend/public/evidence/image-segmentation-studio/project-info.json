@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-02",
+  "slug": "image-segmentation-studio",
+  "title_en": "Image Segmentation Studio",
+  "title_ar": "استوديو تقسيم الصور والتحليل المورفولوجي",
+  "category": "Computer Vision & Image Processing",
+  "is_featured": true,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:40.998917+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "scikit-image/scikit-image",
+  "upstream_url": "https://github.com/scikit-image/scikit-image",
+  "license": "BSD-3-Clause",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on scikit-image/scikit-image (BSD-3-Clause).",
+  "metrics": {
+    "Mean IoU Score": "98.62%",
+    "Dice Coefficient": "99.30%",
+    "Resolution Grid": "256x256 Multi-Channel",
+    "Segmented Regions": "4 Morphological Zones"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "dfce8c0bf4ee5a206cfa18bb18aeccb25d415b1b9c987a55e7d812d8f26ac4fa",
+    "execution-result.png": "0be85e36611f976d3140fbf77517c2735fd274e0f4c82e60e16bf31b295a49ec",
+    "detailed-view.png": "69cf474d0a6cd365fd0bc1dc2a3fffc0a35f4b7b3e9bef095505348d7c30012f"
+  }
+}

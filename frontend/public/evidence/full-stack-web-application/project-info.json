@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-06",
+  "slug": "full-stack-web-application",
+  "title_en": "Full-Stack Web Application",
+  "title_ar": "تطبيق ويب متكامل متعدد الطبقات للمؤسسات",
+  "category": "Web Development",
+  "is_featured": true,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:52.685991+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "fastapi/full-stack-fastapi-template",
+  "upstream_url": "https://github.com/fastapi/full-stack-fastapi-template",
+  "license": "MIT",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on fastapi/full-stack-fastapi-template (MIT).",
+  "metrics": {
+    "API p50 Latency": "4.2 ms",
+    "Peak Throughput": "9,450 req/sec",
+    "Type Safety": "100% TS + Pydantic v2",
+    "Auth Standard": "JWT Bearer + PBKDF2/Bcrypt"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "8cd881b98bfcd57e084748740ad685fe9fd14f3676d003e7aa3e43f0171cc839",
+    "execution-result.png": "29bc7f5e2ab4fdd057291daca695f29c4d9e603584bf88ff9db3671ebada09b6",
+    "detailed-view.png": "896bcd6ead26e0f19e2976f76d0b222bc21270fb18eef178d186759b14e93a7d"
+  }
+}

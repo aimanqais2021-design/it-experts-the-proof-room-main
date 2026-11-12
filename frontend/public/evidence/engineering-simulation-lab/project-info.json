@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-11",
+  "slug": "engineering-simulation-lab",
+  "title_en": "Engineering Simulation Lab",
+  "title_ar": "مختبر المحاكاة الهندسية والنمذجة الرياضية",
+  "category": "Engineering Simulation & Mathematical Modeling",
+  "is_featured": false,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:27:03.006943+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "scipy/scipy",
+  "upstream_url": "https://github.com/scipy/scipy",
+  "license": "BSD-3-Clause",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on scipy/scipy (BSD-3-Clause).",
+  "metrics": {
+    "PDE Mesh Grid": "60x60 Finite-Difference",
+    "Final Residual": "0.10643 °C",
+    "PID Settling Time": "3.4 Seconds",
+    "Peak Overshoot": "4.2% (Optimal Damping)"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "9e41d14db6efb0ddfd2c3d684087e1300e39e76d23967ed1a5b30f030e9a4c4f",
+    "execution-result.png": "801c57f97045a16dd414601ddcdbf341ce1a8ac8dc80ba146cea19b544dac047",
+    "detailed-view.png": "46403db95ead2ccda888720967cfb2dec85eaa5a6655c329478a42774d0f7a30"
+  }
+}

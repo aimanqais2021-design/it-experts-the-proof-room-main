@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-10",
+  "slug": "big-data-pipeline",
+  "title_en": "Big Data Pipeline",
+  "title_ar": "خطوط معالجة البيانات الضخمة والتحليلات الموزعة",
+  "category": "Databases & Data Engineering",
+  "is_featured": false,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:27:00.377896+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "pandas-dev/pandas",
+  "upstream_url": "https://github.com/pandas-dev/pandas",
+  "license": "BSD-3-Clause",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on pandas-dev/pandas (BSD-3-Clause).",
+  "metrics": {
+    "Processed Volume": "250,000 Records",
+    "Clean Lakehouse": "249,590 Rows (99.8%)",
+    "DLQ Quarantined": "410 Outliers",
+    "Throughput Rate": "6,134,984 rows/sec"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "83deb1e34f9d801be251d69e4ef88b3c6fd680c4b702008ac98e1c90c8fb3939",
+    "execution-result.png": "773f21fac3c1939637daa9195e802b42f2ceacee0e62bc11efe5c930710915e5",
+    "detailed-view.png": "e69c493dc0ac7cb1bc1d4a3cc33811a9ffda82276658da31d0a87209f56f80a1"
+  }
+}

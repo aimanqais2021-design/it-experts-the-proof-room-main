@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-09",
+  "slug": "network-traffic-analyzer",
+  "title_en": "Network Traffic Analyzer",
+  "title_ar": "محلل حركة الشبكة وكشف التسلل السيبراني",
+  "category": "Cybersecurity & Traffic Analysis",
+  "is_featured": false,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:58.690160+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "secdev/scapy",
+  "upstream_url": "https://github.com/secdev/scapy",
+  "license": "BSD-3-Clause",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on secdev/scapy (BSD-3-Clause).",
+  "metrics": {
+    "Inspected Flows": "490 PCAP Flows",
+    "Anomalies Flagged": "40 Malicious Bursts",
+    "Detection Precision": "97.5%",
+    "Peak Ingress": "812 Mbps (Mitigated)"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "179b7d8c90748e745695725ae72c6cd6f8c766fa27463f2a4c2c8ba4b2c155ec",
+    "execution-result.png": "eb638f89fe2dedcf5de1345dbacbe4f2206f70f5576fd998f40fabffab7e5984",
+    "detailed-view.png": "72ebd7fd1a45e5740d7389701831367239d93509b407bcc6d37610da698521f0"
+  }
+}

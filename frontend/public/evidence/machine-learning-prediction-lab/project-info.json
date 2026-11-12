@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-03",
+  "slug": "machine-learning-prediction-lab",
+  "title_en": "Machine Learning Prediction Lab",
+  "title_ar": "مختبر التنبؤ بالتعلم الآلي والنمذجة الإحصائية",
+  "category": "Artificial Intelligence & Machine Learning",
+  "is_featured": true,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:47.276239+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "scikit-learn/scikit-learn",
+  "upstream_url": "https://github.com/scikit-learn/scikit-learn",
+  "license": "BSD-3-Clause",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on scikit-learn/scikit-learn (BSD-3-Clause).",
+  "metrics": {
+    "Best ROC-AUC": "95.33%",
+    "Holdout Accuracy": "86.89%",
+    "F1 Harmonic Score": "86.80%",
+    "Evaluated Models": "GBM, Random Forest, MLP"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "00cc1651ee62d01bdac164162e2152fa23d3b99e9fbcdc1647fd763ca79d3e4a",
+    "execution-result.png": "41ecb5413d7e84575e0b42810749fa5a54a1e7438d8f11664e9fef5b7f84c6eb",
+    "detailed-view.png": "864a88b1600e099b9081a1c2d35f6140cdf657bebbd3cbf269ac459ededad3b0"
+  }
+}

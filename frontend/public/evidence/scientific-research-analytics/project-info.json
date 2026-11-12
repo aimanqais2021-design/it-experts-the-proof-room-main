@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-12",
+  "slug": "scientific-research-analytics",
+  "title_en": "Scientific Research & Analytics",
+  "title_ar": "البحث العلمي والتحليلات الإحصائية المتقدمة",
+  "category": "Scientific Research & Data Analytics",
+  "is_featured": false,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:27:05.371903+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "scipy/scipy",
+  "upstream_url": "https://github.com/scipy/scipy",
+  "license": "BSD-3-Clause",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on scipy/scipy (BSD-3-Clause).",
+  "metrics": {
+    "Monte Carlo Paths": "2,000 Trajectories",
+    "t-Statistic": "t = 16.84 (Significant)",
+    "p-Value": "2.31e-52 (< 0.0001)",
+    "Effect Gain": "+10.9 Points"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "1da593054249c3006200b75d5cb3d9ede712929bbff3cc466c10aa71ef7571cf",
+    "execution-result.png": "e6ff1446add127fda35da810dd956267a0f918c2fdf25f4c507c77ffdf3caaf3",
+    "detailed-view.png": "dca81e1ff514a46717db35fbd3a7ee9df26f6f0186c9b7f6abd12bfaaf067b36"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-01",
+  "slug": "real-time-object-detection",
+  "title_en": "Real-Time Object Detection",
+  "title_ar": "الكشف الفوري عن الأجسام بالرؤية الحاسوبية",
+  "category": "Computer Vision & AI",
+  "is_featured": true,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:38.836813+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "ultralytics/ultralytics",
+  "upstream_url": "https://github.com/ultralytics/ultralytics",
+  "license": "AGPL-3.0",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on ultralytics/ultralytics (AGPL-3.0).",
+  "metrics": {
+    "Inference Speed": "13.3 ms (185 FPS)",
+    "mAP@0.50": "94.5%",
+    "Detected Entities": "5 Active Objects",
+    "Precision / Recall": "95.2% / 92.8%"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "6e5f02676e8103dadb391809d8ec6d5f7fe4597b839d0b6146a3912ad80ed435",
+    "execution-result.png": "69c0e1d9a00562a88cdd3802732db1c8f9cb87477e9bd27aa052339af38f0fc1",
+    "detailed-view.png": "f195ca35238157fda26cfd3f3f8700601e406a5a9628b50e1b59259d1bc080a7"
+  }
+}

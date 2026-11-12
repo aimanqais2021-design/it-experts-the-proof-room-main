@@ -1,0 +1,31 @@
+{
+  "project_id": "PROJ-07",
+  "slug": "database-management-system",
+  "title_en": "Database Management System",
+  "title_ar": "نظام إدارة قواعد البيانات وتحسين خطط الاستعلام",
+  "category": "Databases & Data Engineering",
+  "is_featured": false,
+  "verification_status": "VERIFIED",
+  "executed_at": "2026-11-11T21:26:54.703439+00:00",
+  "hardware_environment": "NVIDIA GeForce RTX 5070 Ti (12GB GDDR7) / AMD Ryzen 9 8940HX / Python 3.12.4",
+  "upstream_repository": "sqlalchemy/sqlalchemy",
+  "upstream_url": "https://github.com/sqlalchemy/sqlalchemy",
+  "license": "MIT",
+  "attribution": "Adapted and benchmarked by IT EXPERTS Engineering based on sqlalchemy/sqlalchemy (MIT).",
+  "metrics": {
+    "Unindexed Scan": "21.24 ms",
+    "B-Tree Indexed": "0.18 ms",
+    "Speedup Factor": "118.0x Faster",
+    "Benchmark Dataset": "40,000 ACID Records"
+  },
+  "evidence_files": {
+    "overview": "overview.png",
+    "execution_result": "execution-result.png",
+    "detailed_view": "detailed-view.png"
+  },
+  "sha256_checksums": {
+    "overview.png": "3652be4aaac4e10c27141bc1249b0b4d03086a43fb6f81b65196f25eb203829d",
+    "execution-result.png": "97108f5d8d3b69db8a65a6bc7e5df0307efc2d36e892444792188f7f75b09073",
+    "detailed-view.png": "5a67734a175b25a250b3b34cd23160d68ac37a556af31ab5406357efa48738fd"
+  }
+}

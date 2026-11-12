@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: #090B10;
+    color: #F1E9D8;
+    scroll-behavior: smooth;
+  }
+
+  html[dir="rtl"] {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+
+  html[dir="ltr"] {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.luxury-gradient-text {
+  background: linear-gradient(135deg, #F1E9D8 0%, #C9A45C 55%, #E4C580 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.luxury-card {
+  background: linear-gradient(180deg, rgba(23, 26, 32, 0.94) 0%, rgba(13, 16, 22, 0.98) 100%);
+  border: 1px solid rgba(201, 164, 92, 0.2);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: rgba(201, 164, 92, 0.55);
+  box-shadow: 0 12px 40px -10px rgba(201, 164, 92, 0.18);
+}
